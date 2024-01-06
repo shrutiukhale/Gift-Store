@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flower's and Gift's</title>
+
+    <!-- Bootstrap Links -->
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script>
+    <style>
+        #btn1 {
+            width: 35%;
+            height: 50px;
+            color: aliceblue;
+            background: green;
+            margin-right: 25px;
+            border-radius: 5px;
+        }
+        
+        #btn2 {
+            width: 35%;
+            height: 50px;
+            color: aliceblue;
+            background: orangered;
+            margin-right: 25px;
+            border-radius: 5px;
+        }
+        
+        #srch {
+            width: 40%;
+            height: 35px;
+            margin-right: 25px;
+            margin-top: 25px;
+        }
+        
+        #srch1 {
+            width: 20%;
+            height: 35px;
+            margin-top: 25px;
+            color: aliceblue;
+            background: rgb(81, 145, 81);
+        }
+        
+        #offer {
+            width: 25%;
+            color: white;
+            background: rgb(74, 153, 74);
+        }
+        
+        #pin {
+            width: 35%;
+            height: 40px;
+            margin-right: 10px;
+            border: 2px solid black;
+        }
+        
+        #pin:hover {
+            width: 35%;
+            height: 40px;
+            margin-right: 10px;
+            border: 2px solid burlywood;
+        }
+        
+        .card {
+            width: 280px;
+            height: 320px;
+            padding: 2px;
+            margin-left: 20px;
+            transition: 1s ease;
+            border-radius: 10px;
+            /* border: 1px solid black; */
+        }
+        
+        .card:hover {
+            color: rgb(37, 2, 2);
+            margin-top: 200px;
+            text-decoration: underline;
+            box-shadow: 5px 10px 10px 10px #5352524b;
+            -webkit-transform: scale(1.1);
+            -ms-transform: scale(1.1);
+            transform: scale(1.1);
+            transition: 1s ease;
+        }
+        
+        .link_price_container {
+            text-decoration: none;
+            color: black;
+        }
+        
+        .link_price_container:hover {
+            text-decoration: none;
+            color: black;
+        }
+        /* FOOTERR */
+        
+        footer .heading {
+            height: 385px;
+            border: 1pxp solid black;
+            border-radius: 5px;
+            margin-top: 10px;
+            color: rgb(255, 255, 255);
+            background-color: rgb(58, 56, 56);
+            padding: 10px;
+            font-family: monospace;
+            /* letter-spacing: 2px; */
+            text-align: center;
+        }
+        
+        footer .footer_left {
+            text-decoration: none;
+            text-align: left;
+            color: white;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        
+        footer .footer_left a {
+            text-decoration: none;
+        }
+        
+        footer .footer_center {
+            padding: 0px;
+            margin: 0px;
+            text-decoration: none;
+            text-align: left;
+            color: white;
+        }
+        
+        footer .footer_center a {
+            text-decoration: none;
+        }
+        
+        footer .footer_right {
+            padding: 0px;
+            margin: 0px;
+            text-decoration: none;
+            text-align: left;
+            color: white;
+        }
+        
+        footer .footer_right a {
+            text-decoration: none;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="row ">
+            <input type="search" id="srch" placeholder="Search here">
+            <input type="button" id="srch1" value="Select delivery location>">
+
+            <br>
+            <div class="col-lg-7 " style=" margin-top: 100px;">
+                <img src="assets/images/img2-4.jpg" alt="" style="width: 600px; height: 530px;">
+            </div>
+            <div class="col-lg-5" style="margin-top: 150px;">
+                <div class="card-body">
+                    <h3 style="font-size: 40px;"><b>Rainbow Connection </b></h3>
+                    <h2><span style="color: rgb(255, 81, 0); font-size: 45px;"> ₹265</span></h2>
+                    <strike><span style="color: red;"> ₹399 </span></strike> (<span style="color: green;"> 16% OFF </span>)
+                    <input type="button" id="offer" value="Offers available >">
+                    <h6>Inclusive of all taxes</h6><br>
+
+                    <span style="color: green;">Enter correct Pincode for hassel free timely delivery.</span><br>
+
+                    <input type="text" name="" id="pin" class="" placeholder="*Enter Pincode">
+                    <input type="text" name="" onfocus="this(type='date')" class="" id="pin" placeholder="Select Delivery Date"><br>
+                    <h6>Don't know pincode?</h6><br><br>
+                    <input type="button" id="btn1" value="ADD TO CART">
+
+                    <a href="buy.html"><input type="button" id="btn2" value="BUY NOW"></a><br><br><br>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- ####################### FOOTER ######################################### -->
+
+    <div class="row">
+        <div class="col-12 col-lg-12">
+
+            <footer>
+                <div class="heading"> <span> <b>|| Helping Section ||</b></span>
+
+                    <div class="container-fluid mt-5">
+                        <div class="row">
+                            <div class="footer_left col-4">
+                                <h3><b>Let's Talk..!</b></h3> <br>
+                                <b> Whatsapp</b> :<a href="tel:9370161344">tel:9370161344</a><br><br>
+                                <b> Call : </b><a href="tel:9370161344">tel:9370161344</a><br><br>
+                                <b> Email :</b> <a href="">divineflower123@gamil.com</a>
+
+                            </div>
+                            <div class="footer_center col-4">
+                                <h3><b>Quick links</b></h3> <br>
+                                <a href="index.html">Home</a> <br><br>
+                                <a href="about-us.html">About Us</a><br><br>
+                                <a href="contact-us.html">Contact Us</a><br> <br>
+                                <a href="terms&services.html">Terms of Service</a>
+
+                            </div>
+                            <div class="footer_right col-4">
+                                <h3><b>Legal</b></h3> <br>
+                                <a href="shipping.html">Shoping Policy</a><br><br>
+                                <a href="privacyPolicy.html">Privay Policy</a>
+
+                            </div>
+                        </div>
+                    </div><br><br> <b>&copy</b> || All Right Reserved ||
+                </div>
+            </footer>
+
+        </div>
+
+
+</body>
+
+</html>

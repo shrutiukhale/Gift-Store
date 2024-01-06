@@ -1,0 +1,557 @@
+/* Popup for SignIn */
+
+.show-btn {
+    background: rgba(61, 75, 206, 0.952);
+    padding: 5px 5px;
+    font-size: 23px;
+    font-weight: 500;
+    color: #ffffff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    letter-spacing: 1px;
+    align-self: flex-end;
+    cursor: pointer;
+}
+
+.show-btn:hover {
+    background: rgb(24, 95, 228);
+    padding: 7px 7px;
+    font-size: 20px;
+    font-weight: 200;
+    color: #ffffff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+}
+
+.show-btn,
+.Container {
+    position: absolute;
+    margin-left: 11%;
+    margin-top: 30px;
+    transform: translate(-50%, -50%);
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+
+.Container {
+    display: none;
+    background: rgb(203, 209, 209);
+    width: 500px;
+    height: 500px;
+    padding: 30px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+    border-radius: 20px;
+    margin-top: 350px;
+    margin-left: -410px;
+}
+
+#show:checked~.Container {
+    display: block;
+}
+
+.Container .close-btn {
+    position: absolute;
+    right: 20px;
+    top: 15px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.Container .close-btn:hover {
+    color: #ee1212;
+}
+
+.user_add {
+    font-size: 32px;
+    color: rgb(81, 59, 204);
+    margin-right: 10px;
+}
+
+.Container .text {
+    font-size: 35px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.Container form {
+    margin-top: -20px;
+}
+
+.Container form .data {
+    height: 45px;
+    width: 100%;
+    margin: 40px 0;
+}
+
+form .data label {
+    font-size: 20px;
+    font-family: serif;
+}
+
+form .data input {
+    height: 100%;
+    width: 70%;
+    margin-left: 50px;
+    margin-top: 20px;
+    font-size: 18px;
+    border-radius: 20px;
+    text-align: center;
+    border: none;
+    background: transparent;
+    border-bottom: 3px solid rgb(0, 0, 0);
+    outline: none;
+}
+
+form .data input:hover {
+    border-radius: 20px;
+    border: 1px solid rgb(0, 0, 0);
+    background: transparent;
+    border-bottom: 5px solid rgb(0, 0, 0);
+    outline: none
+}
+
+form .forgot-pass {
+    margin-top: 2px;
+    margin-left: 130px;
+    font-size: 17px;
+}
+
+form .forgot-pass a {
+    color: #d11818;
+    text-decoration: none;
+}
+
+form .forgot-pass a:hover {
+    text-decoration: underline;
+    color: #ff0000;
+}
+
+#smile {
+    color: rgb(221, 98, 26);
+}
+
+#submit {
+    background-color: rgb(17, 120, 216);
+    display: block;
+    margin: 20px;
+    text-align: center;
+    border: 2px solid rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    transition: 0.25px;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    height: 45px;
+    width: 45%;
+    margin-top: 20px;
+    border-radius: 50px;
+    margin-left: 110px;
+    cursor: pointer;
+}
+
+#submit:hover {
+    background: rgb(44, 136, 221);
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(29, 28, 28);
+}
+
+form .signup-link {
+    text-align: center;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+form .signup-link a {
+    color: #d60a0a;
+    text-decoration: none;
+}
+
+form .signup-link a:hover {
+    text-decoration: underline;
+    color: rgba(223, 69, 58, 0.863);
+}
+
+
+/* PopUp for SignUp */
+
+.SHOW-BTN {
+    background: rgba(61, 75, 206, 0.952);
+    padding: 5px 3px;
+    font-size: 23px;
+    font-weight: 400;
+    color: #ffffff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    letter-spacing: 1px;
+    align-self: flex-end;
+    cursor: pointer;
+}
+
+.SHOW-BTN:hover {
+    background: rgb(24, 95, 228);
+    padding: 7px 7px;
+    font-size: 20px;
+    font-weight: 200;
+    color: #ffffff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+}
+
+.SHOW-BTN,
+.CONTAINER {
+    position: absolute;
+    margin-left: 20%;
+    margin-top: 30px;
+    transform: translate(-50%, -50%);
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+
+.CONTAINER {
+    display: none;
+    background: rgb(203, 209, 209);
+    width: 550px;
+    height: 600px;
+    padding: 30px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+    border-radius: 20px;
+    margin-top: 350px;
+    margin-left: -400px;
+}
+
+#SHOW:checked~.CONTAINER {
+    display: block;
+}
+
+.CONTAINER .CLOSE-BTN {
+    position: absolute;
+    right: 20px;
+    top: 7px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.USER_ADD {
+    font-size: 32px;
+    color: rgb(81, 59, 204);
+    margin-right: 10px;
+}
+
+.CONTAINER .CLOSE-BTN:hover {
+    color: #ee1212;
+}
+
+.CONTAINER .TEXT {
+    font-size: 35px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.CONTAINER form {
+    margin-top: -20px;
+}
+
+.CONTAINER form .DATA {
+    height: 45px;
+    width: 100%;
+    margin: 40px 0;
+}
+
+form .DATA LABEL {
+    font-size: 20px;
+    font-family: serif;
+}
+
+form .DATA input {
+    height: 100%;
+    width: 60%;
+    margin-left: 90px;
+    margin-top: 20px;
+    font-size: 18px;
+    border-radius: 20px;
+    text-align: center;
+    border: none;
+    background: transparent;
+    border-bottom: 3px solid rgb(0, 0, 0);
+    outline: none;
+}
+
+form .DATA input:hover {
+    border-radius: 20px;
+    border: 1px solid rgb(0, 0, 0);
+    background: transparent;
+    border-bottom: 5px solid rgb(0, 0, 0);
+    outline: none
+}
+
+form .FORGOT-PASS {
+    margin-top: -8px;
+    margin-left: 70px;
+    font-size: 17px;
+}
+
+form .FORGOT-PASS a {
+    color: #d11818;
+    text-decoration: none;
+}
+
+form .FORGOT-PASS a:hover {
+    text-decoration: underline;
+    color: #ff0000;
+}
+
+#SUBMIT {
+    background-color: rgb(17, 120, 216);
+    display: block;
+    margin: 20px;
+    text-align: center;
+    border: 2px solid rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    transition: 0.25px;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    height: 45px;
+    width: 45%;
+    border-radius: 50px;
+    margin-left: 140px;
+    cursor: pointer;
+}
+
+#SUBMIT:hover {
+    background: rgb(44, 136, 221);
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(29, 28, 28);
+}
+
+form .signup-link {
+    text-align: center;
+    font-size: 20px;
+}
+
+form .signup-link a {
+    color: #d60a0a;
+    text-decoration: none;
+}
+
+form .signup-link a:hover {
+    text-decoration: underline;
+    color: rgba(223, 69, 58, 0.863);
+}
+
+
+/* Forum info */
+
+.forum-info {
+    padding: 20px;
+}
+
+.chart {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+/* Footer */
+
+footer {
+    margin-top: 20px;
+    display: block;
+    text-align: center;
+}
+
+.search_box {
+    height: 30px;
+    width: 250px;
+    margin-left: 30px;
+    border-radius: 5px;
+}
+
+.search {
+    margin-left: 3px;
+    color: rgb(71, 69, 69);
+    height: 45px;
+    width: 30px;
+}
+
+.search:hover {
+    color: rgb(145, 137, 137);
+}
+
+#nav_log_in {
+    border: 2px solid black;
+    box-shadow: 1px 3px 8px 1px rgb(57, 59, 57);
+    margin-right: 5px;
+}
+
+#nav_sign_up {
+    border: 2px solid black;
+    box-shadow: 1px 3px 8px 1px rgb(57, 59, 57);
+}
+
+#nav_log_in:hover {
+    border-radius: 5px;
+    background-color: rgba(0, 0, 255, 0.34);
+    color: rgb(255, 255, 255);
+    transition: 0.5s;
+    border: 2px solid black;
+    box-shadow: 1px 3px 8px 1px rgb(57, 59, 57);
+}
+
+#nav_sign_up:hover {
+    border-radius: 5px;
+    background-color: rgba(0, 0, 255, 0.34);
+    color: rgb(255, 255, 255);
+    transition: 0.5s;
+}
+
+.icon {
+    color: rgb(71, 69, 69);
+    height: 30px;
+    width: 20px;
+}
+
+
+/* 
+.card {
+    width: 300px;
+    height: 400px;
+    padding: 2px;
+    margin-left: 15px;
+    border-radius: 10px;
+    border: 1px solid black;
+} */
+
+
+/* CONTACT AND MORE BUTTONS css */
+
+.navbar-right a {
+    position: relative;
+    text-decoration: none;
+    font-size: 15px;
+    padding: 8px;
+    display: inline-block;
+}
+
+.navbar-right a,
+.navbar-right a.hover-btn-new::after {
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.navbar-right a.hover-btn-new::before,
+.navbar-right a.hover-btn-new::after {
+    background: #eea412;
+    content: '';
+    position: absolute;
+    z-index: 1;
+    border-radius: 5px;
+}
+
+.navbar-right a.hover-btn-new:hover span {
+    color: #ffffff;
+}
+
+.navbar-right a.hover-btn-new::before {
+    height: 100%;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+.navbar-right a.hover-btn-new::after {
+    background: #ffffff !important;
+    height: 100%;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+.navbar-right a.hover-btn-new span {
+    position: relative;
+    z-index: 2;
+    color: #333333;
+}
+
+.navbar-right a.hover-btn-new:hover:after {
+    height: 0;
+    left: 50%;
+    top: 50%;
+    width: 0;
+}
+
+.link_price_container {
+    text-decoration: none;
+    color: black;
+}
+
+.link_price_container:hover {
+    text-decoration: none;
+    color: black;
+}
+
+
+/* form Controll css */
+
+.form-control {
+    border: 1px solid #000;
+}
+
+
+/* FOOTERR */
+
+footer .heading {
+    height: 385px;
+    border: 1pxp solid black;
+    border-radius: 5px;
+    margin-top: 10px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(58, 56, 56);
+    padding: 10px;
+    font-family: monospace;
+    /* letter-spacing: 2px; */
+    text-align: center;
+}
+
+footer .footer_left {
+    text-decoration: none;
+    text-align: left;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+footer .footer_left a {
+    text-decoration: none;
+}
+
+footer .footer_center {
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+    text-align: left;
+    color: white;
+}
+
+footer .footer_center a {
+    text-decoration: none;
+}
+
+footer .footer_right {
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+    text-align: left;
+    color: white;
+}
+
+footer .footer_right a {
+    text-decoration: none;
+}
